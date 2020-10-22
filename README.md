@@ -22,7 +22,6 @@ Boostrap CSS Framework was used for styling navbar, and responsive layout. The g
 <p>The code started out as a basic HTML file highlighting relative paths via CSS.
 
 <p><strong>Changes Made</strong></p>
-<br>
 <p>
 - Changed the font styling of the page from Georgia/Times New Roman/Times/serif to Source Sans Pro/sans-serif.<br>
 - Moved the contact section to the naviation bar.<br>
@@ -35,13 +34,9 @@ Boostrap CSS Framework was used for styling navbar, and responsive layout. The g
 - Added PDF download code for resume viewing under Training and Education<br>
 - Added images and small description of each skill/ service I provide. <br>
 </p>
-<p><strong>Challenges Faced</strong></p>
-<br>
-
-
-<p><strong>Challenges with the Body Section</strong></p>
+<p><strong>Challenges Faced:</strong></p>
 <p><strong>Portfolio Header</strong></p> 
-<p>Portfolio header Link defaulted to the color in the stylesheet after a href was applied to the h2 tag.</p><br>
+<p>Portfolio header link defaulted to the color in the stylesheet after a href was applied to the h2 tag.</p>
 <strong>Solution</strong> 
 <p>Added an inline-style to the html</p>
 <br>
@@ -57,6 +52,6 @@ in the navigation section. I then added padding, and margin styling in the css<b
 of the body section.</p>  
 
 <p><strong>Challenges with Footer</strong></p>
-<p>Trouble setting footer to stay fixed at the bottom of the screen<p><br>
+<p>Trouble setting footer to stay fixed at the bottom of the screen<p>
 <p><strong>Solution</strong></p>
 <p>Added fixed styling to the CSS file</p> 
