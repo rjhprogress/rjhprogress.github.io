@@ -12,9 +12,10 @@ Boostrap CSS Framework was used for styling navbar, and responsive layout. The g
 <p><strong>Credits:</strong><br>
 <ul>
 <li>University of Pennsylvania: Penn LPS Coding Bootcamp Starter Code</li>
-<li>URL Image from https://www.gettyimages.com/<li>
-<li>Other images from Unsplash.com<li>
+<li>URL Image from https://www.gettyimages.com/</li>
+<li>Other images from Unsplash.com</li>
 </ul>
+
  
 
 <p><strong>The Process</strong></p>
@@ -45,14 +46,14 @@ Boostrap CSS Framework was used for styling navbar, and responsive layout. The g
 <p>Added an inline-style to the html</p>
 <br>
 
-<p><strong>Responsive of Body Section</strong></p>
+<p><strong>Unresponsive Body Section</strong></p>
 <p>Navigation and footer was responsive when the site scaled down to mobile size,<br>
 but the body section of the page didn't respond with the same flexibility.<br>
 A footer slide bar was added to accomidate, but took away from the beautification of the page.</p><br>
-<strong>Solution<strong>
-<p>There was more than one bootstrap container class applied to the code. I removed two
-from the "About Me" section, and the "Portfolio Section", and kept the one
-in the navigation section. I then added padding, and margin styling in the css
+<p><strong>Solution<strong></p>
+<p>There was more than one bootstrap container class applied to the code. I removed two<br>
+from the "About Me" section, and the "Portfolio Section", and kept the one<br>
+in the navigation section. I then added padding, and margin styling in the css<br>
 of the body section.</p>  
 
 <p><strong>Challenges with Footer</strong></p>
