@@ -17,11 +17,12 @@ Boostrap CSS Framework was used for styling navbar, and responsive layout. The g
 </ul>
  
 
-<h1>The Process</h1>
+<strong>The Process</strong>
 <p>The code started out as a basic HTML file highlighting relative paths via CSS.
 
-<h2>Changes Made<h2>
+<strong>Changes Made</strong>
  <br>
+<p>
 - Changed the font styling of the page from Georgia/Times New Roman/Times/serif to Source Sans Pro/sans-serif.<br>
 - Moved the contact section to the naviation bar.<br>
 - Removed Portfolio from "contacts" and made it a section where contacts used to be. <br>
@@ -32,29 +33,29 @@ Boostrap CSS Framework was used for styling navbar, and responsive layout. The g
 - Changed logo to my name with a coding icon <br>
 - Added PDF download code for resume viewing under Training and Education<br>
 - Added images and small description of each skill/ service I provide. <br>
-
-<h2>Challenges Faced</h2>
+</p>
+<strong>Challenges Faced</strong>
 <br>
 
 
-<h3>Challenges with the Body Section</h3>
-<h4>Portfolio Header<h4> 
+<strong>Challenges with the Body Section</strong>
+<strong>Portfolio Header<strong> 
 <p>Portfolio header Link defaulted to the color in the stylesheet after a href was applied to the h2 tag.</p><br>
-<h4>Solution</h4> 
+<strong>Solution</strong> 
 <p>Added an inline style to the html <code><a href="portfolio.html" style='color:#072A82'>Portfolio</a></h1></code></p>
 <br>
 
-<h4>Responsive of Body Section</h4>
+<strong>Responsive of Body Section</strong>
 <p>Navigation and footer was responsive when the site scaled down to mobile size,
 but the body section of the page didn't respond with the same flexibility.
 A footer slide bar was added to accomidate, but took away from the beautification of the page.</p><br>
-<h4>Solution<h4>
+<strong>Solution<strong>
 <p>There was more than one bootstrap container classes applied to the code. I removed two
 from the "About Me" section, and the "Portfolio Section", and kept the one
 in the navigation section. I then added padding, and margin styling in the css
 of the body section.</p>  
 
-<h3>Challenges with Footer</h3>
+<strong>Challenges with Footer</strong>
 <p>Trouble setting footer to stay fixed at the bottom of the screen<p><br>
-<h2>Solution</h2>
+<strong>Solution</strong>
 <p>Added fixed styling to the CSS file</p> <br>
