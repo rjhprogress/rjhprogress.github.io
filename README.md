@@ -55,3 +55,10 @@ of the body section.</p>
 <p>Trouble setting footer to stay fixed at the bottom of the screen<p>
 <p><strong>Solution</strong></p>
 <p>Added fixed styling to the CSS file</p> 
+
+
+
+Copyright (C) 2011 - 2020 Olivier Biot
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated document
