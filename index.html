@@ -1,64 +1,193 @@
 <!DOCTYPE html>
-<html>
-  <link rel="icon" type="image/png" href="coder.png">
-<title>R.Horne Portfolio</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<body id="myPage">
+<html lang="en-us">
+<!--Head Section-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap">
+  <!--Style Sheets-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css" media="screen">
+  <script src="https://kit.fontawesome.com/548bc70835.js" crossorigin="anonymous"></script>
+<!-- Favicon code from www.w3.org/2005/10/howto-favicon-->
+  <link rel="icon" type="image/png" href="img/coder.png">
+  <title>R. Horne Portfolio</title>
+</head>
+<!--End Head Section-->
 
-<!-- Navbar -->
-<div class="w3-top">
- <div class="w3-bar w3-theme-d2 w3-left-align">
+<!--Body Section-->
+<body>
 
-  <a href="about.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>View Portfolio</a>
-   
+<!--Nav Start-->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <a class="navbar-brand" href="index.html" id="logo"><i class="fas fa-code"></i>Rasheedah Horne</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/rjhprogress">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html" id="#about">About</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Portfolio
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="portfolio.html" id="#features"><i class="far fa-eye"></i>&nbsp;Featured</a>
+              <a class="dropdown-item" href="https://github.com/rjhprogress"><i class="fab fa-github"></i>&nbsp;GitHub</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contact
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="mailto:rjh@theprogresslab.com"><i class="fas fa-envelope-open-text"></i>&nbsp;Email</a>
+              <a class="dropdown-item" href="https://www.linkedin.com/in/rjhprogress/"><i class="fab fa-linkedin-in"></i>&nbsp;LinkedIn</a>
+              <a class="dropdown-item" href="contact.html"><i class="fa fa-fax"></i>&nbsp;Contact Form</a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    <!--Old </div> for container goes here -->
+    <!-- /.container -->
+  </nav><br><br><br>
+
+  <!-- End of navbar -->
+
+
+
+  <!-- About me container -->
+
+    <section class="row">
+      <div class="col-md-10">
+        <article class="block">
+          <h1>About Me</h1>
+          <hr />
+          <img src="rjh-profile.jpg" alt="Smiling profile photo of Rocky" id="profile-image" />
+
+          <p id="about-me-fts"><strong>Nickname:</strong> Rocky<br>
+          <strong>Profession:</strong> Front-End Web Developer<br>
+          <strong>Other Interest:</strong> Boxing Training, Poetry </p>
+
+            <p>
+            Open minded Front-End Developer, learning by working with clients of various spectrums,
+            from Web Development for the small neighborhood barber shop,
+            to designing marketing material for the world renowned University of Pennsylvania.
+            My diverse, and solution focused mindset will be a great addition to your team.
+          </p>
+
+          <br>
+          <h2><i class="fas fa-laptop-code"></i>Training & Eduction</h2>
+          <a href="https://docs.google.com/document/d/1pucvsVQ7FEq1vxhgSvqYRI9YRlswKMRvNgsjdTol4Ps/edit?usp=sharing" target="_blank">View Resume : Download PDF</a>
+          <ul>
+
+          </ul>
+
+        </article>
+      </div>
+    </section>
+
+  <!-- End of container -->
+
+
+<!-- Start of Profile
+  <main class="row">
+    <div class="col-md-10">
+      <article class="block">
+        <h1 class="block-header" id="portfolio"><a href="portfolio.html" style='color:#072A82'>Portfolio</a></h1>
+        <hr />
+
+
+        <div class="row">
+          <div class="col-sm-6 col-md-12 col-lg-6">
+
+            <div class="container-img">
+              <h4>Web Design</h4>
+              <p>Communicate your message to your customers professionally through strategic, and custom website design.  </p>
+            <img class="img-fluid port-image" src="img/uxdesign.png" width="375px" height="350px" alt="An image of UX Design highlighting content." >
+          </div>
+          <br>
+        </div>
+
+          <div class="col-sm-6 col-md-12 col-lg-6">
+              <h4>URL Creation</h4>
+              <p>With over 1.5 billion websites on the internet<small> https://www.internetlivestats.com,</small>
+                 a good URL (website name) can be hard to come by.
+                Leave it to me, and you'll have one in no time.  </p>
+              <img class="img-fluid port-image" src="img/www.jpg" width="375px" height="350px" alt="Web & Mobile App Services Image">
+            </div>
+          </div>
+        </div><br>
+
+
+        <div class="row">
+        <div class="col-sm-6 col-md-12 col-lg-6">
+
+          <div class="container-img">
+          <h4>Content Editing</h4>
+          <p>Creatively target your audience, and grow your business through marketing channels
+            by working with an effective content editor.</p>
+          <img class="img-fluid port-image" src="img/content.png" width="375px" height="350px" alt="Image of a letter representing content creation.">
+          </div>
+        <br>
+      </div>
+
+      <div class="col-sm-6 col-md-12 col-lg-6">
+        <h4>Responsive Web Development</h4>
+        <p>Scale your website to look great on all devices (not just your laptop), and automatically adapt to screen size. </p>
+        <img class="img-fluid port-image" src="img/web-dev.jpg" width="375px" height="350px" alt="Image of Programming Books Side by Side">
+      </div>
     </div>
   </div>
 
+    <br><br><br>
 
 
 
-<!-- Image Header -->
-<div class="w3-display-container w3-animate-opacity">
-  <img src="img/progress.png"" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+
+
+
+</div>
+
+      </article>
+    </div>
+  </main>
+
+
+End of Profile -->
+
 </div>
 
 
-<!-- Footer -->
-<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
-  <br><br><br>
-  <p>Powered by <a href="https://www.rockyint.com" target="_blank">RockyInt.com</a></p>
+  <!-- Start of footer -->
+  <footer class="footer" id="ft">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright 2020 Rasheedah Horne
+    </p>
+  </footer>
+  <!-- End of footer -->
 
- 
-</footer>
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<script>
-// Script for side navigation
-function w3_open() {
-  var x = document.getElementById("mySidebar");
-  x.style.width = "300px";
-  x.style.paddingTop = "10%";
-  x.style.display = "block";
-}
-
-// Close side navigation
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-
-// Used to toggle the menu on smaller screens when clicking on the menu button
-function openNav() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-</script>
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
