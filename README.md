@@ -1,5 +1,5 @@
 <p><strong>README.md</strong></p>
-
+Updated: February 4, 2022 1:03 pm in the process of updating files for new portfolio.
 
 <p>View my Portfolio at https://rjhprogress.github.io/ </p><br>
 
